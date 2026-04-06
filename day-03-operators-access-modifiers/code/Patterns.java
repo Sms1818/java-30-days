@@ -123,15 +123,15 @@ public class Patterns {
     }
 
     /*
-    7. Hollow Diamond Pattern
-        *
-    * *
-    *   *
-    *     *
-    *   *
-    * *
-        *
-    */
+7. Hollow Diamond Pattern
+    *
+   * *
+  *   *
+ *     *
+  *   *
+   * *
+    *
+*/
 
     public static void hollowDiamondPattern(int n){
         // Upper half
