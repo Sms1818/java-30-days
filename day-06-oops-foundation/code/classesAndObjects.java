@@ -1,5 +1,3 @@
-// Java Object & Reference Behavior - Interview Practice
-// Add this file to your GitHub as revision notes
 
 class Test1 {
     int x = 10;
