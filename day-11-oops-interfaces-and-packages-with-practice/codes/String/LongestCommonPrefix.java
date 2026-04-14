@@ -64,7 +64,7 @@ public class LongestCommonPrefix {
     Note:
     - Cleaner logic but not more optimal than brute force
     */
-    public static String optimal(String[] strs) {
+    public static String sortingApproach(String[] strs) {
         if (strs == null || strs.length == 0) return "";
 
         Arrays.sort(strs);
@@ -92,8 +92,8 @@ public class LongestCommonPrefix {
         System.out.println("LCP: " + verticalScanning(strs2)); // ""
 
         System.out.println("\nSorting Approach:");
-        System.out.println("LCP: " + optimal(strs1)); // fl
-        System.out.println("LCP: " + optimal(strs2)); // ""
+        System.out.println("LCP: " + sortingApproach(strs1)); // fl
+        System.out.println("LCP: " + sortingApproach(strs2)); // ""
     }
 }
 
