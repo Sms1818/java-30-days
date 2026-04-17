@@ -1,4 +1,4 @@
-# ***volatile Keyword in Java (Deep Understanding)***
+# ***volatile Keyword in Java***
 
 ---
 
@@ -110,7 +110,7 @@ No caching allowed
 
 ---
 
-# 🔥 **How volatile Works Internally (VERY IMPORTANT)**
+# 🔥 **How volatile Works Internally**
 
 ---
 
@@ -156,7 +156,7 @@ Write → Always to Main Memory
 
 ---
 
-# 🔥 **Memory Barriers (Advanced Concept)**
+# 🔥 **Memory Barriers**
 
 ---
 
@@ -351,24 +351,6 @@ Loop exits
 | Atomicity  | ❌              | ✔             |
 | Mechanism  | Memory barrier | CAS           |
 | Locking    | ❌              | ❌             |
-
----
-
----
-
-# 🔥 **Real Interview Insight**
-
----
-
-```text
-volatile solves visibility, NOT race condition
-```
-
----
-
-```text
-Use volatile for flags, NOT for shared counters
-```
 
 ---
 
