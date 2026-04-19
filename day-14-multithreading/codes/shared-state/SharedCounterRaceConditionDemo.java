@@ -45,7 +45,7 @@ class Counter implements Runnable{
         }
     }
 }
-public class MultiThreadProblem3 {
+public class SharedCounterRaceConditionDemo {
     public static void main(String[] args) throws InterruptedException {
         Counter counter = new Counter();
         Thread t1 = new Thread(counter, "Thread-1");

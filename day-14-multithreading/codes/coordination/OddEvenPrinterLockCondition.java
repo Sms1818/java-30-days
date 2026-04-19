@@ -90,7 +90,7 @@ class NumberTask {
 
 }
 
-public class MultiThreadProblem7 {
+public class OddEvenPrinterLockCondition {
     public static void main(String[] args) throws InterruptedException {
         NumberTask task = new NumberTask(10);
         Thread t1 = new Thread(() -> {
